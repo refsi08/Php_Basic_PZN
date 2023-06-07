@@ -23,6 +23,7 @@ echo <<<ENTER
 Ini adalah contoh string yang sangat 
 panjang, dan juga gak perlu ngetik ENTER secara 
 manual, "Bisa quote" juga
+
 ENTER;
 
 // 2. Nowdoc
