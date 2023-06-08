@@ -11,11 +11,11 @@ $result = $a - $b; // Pengurangan
 var_dump($result);
 echo $result;
 
-$resultPositif = +$result; // Positif
+$resultPositif = +$result; // merubah nilai ke positif
 var_dump($resultPositif);
 echo $resultPositif;
 
-$resultNegatif = -$result; // Negatif
+$resultNegatif = -$result; // merubah nilai ke negatif
 var_dump($resultNegatif);
 echo $resultNegatif;
 
