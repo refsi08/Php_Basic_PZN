@@ -52,7 +52,7 @@ $ekoArray = array(
     "id" => "eko",
     "name" => "Eko Kurniawan",
     "age" => 30,
-    "address" => array(
+    "address" => array( //nested array (array dalam array)
         "city" => "Jakarta",
         "country" => "Indonesia"
     )
@@ -64,7 +64,7 @@ $budiArray = array(
     "id" => "budi",
     "name" => "Budi Nugraha",
     "age" => 35,
-    "address" => array(
+    "address" => array( //nested array (array dalam array
         "city" => "Jakarta",
         "country" => "Indonesia"
     )
