@@ -13,7 +13,7 @@ echo "Umur : ";
 echo $age;
 echo "\n";
 
-// Kode mengecek null
+// Kode mengecek data variabel nya null atau tidak
 echo "Is name null ?  : ";
 var_dump(is_null($name));
 echo "\n";
