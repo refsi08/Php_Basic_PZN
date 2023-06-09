@@ -10,7 +10,7 @@
         "last_name" => "Khannedy"
     ];
 
-    $fullName = $first + $last;
+    $fullName = $first + $last; // union menggabungkan array
     var_dump($fullName);
 
 
