@@ -15,6 +15,7 @@ echo $action . PHP_EOL;
 
 
 // Menggunakan Null Coalescing
+// hanya menggunakan ?? tanda tanya 2 kali untuk menentukan data ada atau tidak
 $value = [
     "Action" => "ada apa ini",
 ];
