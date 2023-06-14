@@ -20,6 +20,10 @@ switch ($nilai) {
         break;
 }
 
+
+/**
+ * Kondisi di switch statement hanya untuk perbandingan ==
+ */
 // Syntax alternatif
 switch ($nilai):
     case 'A':
