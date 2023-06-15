@@ -23,7 +23,7 @@ sayHello3();
 sayHello3("Refsi");
 
 // Kesalahan Default Argument Value
-function sayHello4($firstName = "Anonymous", $lastName)
+function sayHello4($firstName = "Anonymous", $lastName) // tidak bisa default value di argument pertama
 {
     echo "Hello $firstName $lastName" . PHP_EOL;
 }
