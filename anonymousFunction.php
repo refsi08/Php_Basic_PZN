@@ -29,4 +29,4 @@ $fullName = function () use ($firstName, $lastName) { // harus menggunakan use u
     echo "My Name is $firstName $lastName" . PHP_EOL;
 };
 
-$fullName();
+$fullName(); // gak bisa diisi nilai argument lagi, karena nilai value sudah ada di dalam variabel
