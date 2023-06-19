@@ -21,3 +21,15 @@ function factorialLoop2(int $value): int
     }
 }
 var_dump(factorialLoop2(5));
+
+function loop(int $value)
+{
+    if ($value == 0) {
+        echo "End Loop" . PHP_EOL;
+    } else {
+        echo "ini Value ke-$value" . PHP_EOL;
+        loop($value - 1);
+    }
+}
+
+loop(5);
